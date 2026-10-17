@@ -31,12 +31,18 @@ export default function RootLayout({
                 <p className="text-xs text-slate-400">Bilik və Məntiq Yarışı</p>
               </div>
             </a>
-            <nav className="flex items-center gap-4">
+            <nav className="flex items-center gap-2 sm:gap-4">
               <a
                 href="/"
-                className="text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 px-3 py-1.5 rounded-lg transition-colors"
+                className="text-xs sm:text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors"
               >
                 Paketlər
+              </a>
+              <a
+                href="/admin"
+                className="text-xs sm:text-sm font-medium text-indigo-300 hover:text-white hover:bg-white/5 px-2.5 sm:px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1"
+              >
+                <span>⚙️</span> İnzibatçı
               </a>
             </nav>
           </div>
